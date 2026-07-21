@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <key>url</key>
+                    <string>https://webstore.pages.dev/apps/3D Back-v3.1--iOS3.1-(Clutch-1.4.6).ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>SplashGenead3d</string>
+                <key>bundle-version</key>
+                <string>3.1</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>3D Back</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

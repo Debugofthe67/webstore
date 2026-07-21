@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>WebStore</title>
+    <!-- Standalone Web App Meta Triggers -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="WebStore">
+
+<!-- Home Screen Shortcuts & Web Clips (Legacy iOS 3-6 Compatibility) -->
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="apple-touch-icon-precomposed" href="icon.png">
+
+<!-- Desktop Web Browser Tab Icons -->
+<link rel="icon" type="image/png" href="icon.png">
+
+    <style>
+        /* Classic iOS 6 Gray Linen Background Texture */
+        body {
+            background-color: #cbd5e1;
+            background-image: radial-gradient(#94a3b8 1px, transparent 0);
+            background-size: 8px 8px;
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, Arial, sans-serif;
+            -webkit-user-select: none;
+        }
+        /* Top Navigation Header Bar */
+        .ios-navbar {
+            background: linear-gradient(to bottom, #7aa1d2 0%, #4672aa 50%, #294f83 51%, #355f97 100%);
+            border-bottom: 1px solid #1a3458;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 44px;
+            height: 44px;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.6);
+        }
+        /* iOS 6 List Wrapper Group Container */
+        .ios-list {
+            margin: 15px;
+            background-color: #ffffff;
+            border: 1px solid #ababab;
+            border-radius: 10px;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        /* Row Items */
+        .ios-item {
+            border-bottom: 1px solid #ababab;
+            padding: 12px 15px;
+            display: block;
+            clear: both;
+            position: relative;
+            background: #fff;
+        }
+        .ios-item:last-child {
+            border-bottom: none;
+        }
+        /* Text Columns */
+        .app-meta {
+            float: left;
+            max-width: 65%;
+        }
+        .app-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            margin: 0 0 3px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .app-sub {
+            font-size: 13px;
+            color: #666;
+            margin: 0;
+        }
+        .app-warning {
+            font-size: 12px;
+            color: #b45309;
+            font-weight: bold;
+            margin: 3px 0 0 0;
+        }
+        /* Blue iOS App Store Style Installation Button */
+        .ios-btn {
+            float: right;
+            display: inline-block;
+            background: linear-gradient(to bottom, #5ba3eb 0%, #1573db 50%, #005bca 51%, #0060cc 100%);
+            border: 1px solid #084999;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 6px 14px;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 1px 1px rgba(0,0,0,0.2);
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+            margin-top: 2px;
+        }
+        .ios-btn-alt {
+            background: linear-gradient(to bottom, #9ca3af 0%, #4b5563 100%);
+            border: 1px solid #374151;
+        }
+        /* Clearfix utility helper for ancient browsers */
+        .clear { clear: both; }
+    </style>
+</head>
+<body>
+    <div class="ios-navbar">WebStore</div>
+    <ul class="ios-list">
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">3D Back</div>
+                <div class="app-sub">Version: 3.1</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/3DBack-v31--iOS31-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">A. Racer</div>
+                <div class="app-sub">Version: 1.0</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/ARacer-v113--iOS30-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">2X RDP</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/2XRDP-v1202168--iOS511-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">ACWorld</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/ACWorld-v14--iOS30-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">ACWorld</div>
+                <div class="app-sub">Version: 1.4</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/ACWorld-v14--iOS30-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">1Password</div>
+                <div class="app-sub">Version: 4.3.2</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/1Password-v432--iOS60-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Amazon</div>
+                <div class="app-warning">⚠️ 3 Versions Available</div>
+            </div>
+            <a href="version/-v330--iOS50-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">AOL Radio</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/AOLRadio-v408--iOS43-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">YouTube</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/YouTubeV110iOS50.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Alarm Clock</div>
+                <div class="app-sub">Version: 1.16.1</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/AlarmClock-v1161--iOS60-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Aemula Oldies S</div>
+                <div class="app-sub">Version: 1.0</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/AemulaOldiesS-v16--iOS40-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">5thGraderFree</div>
+                <div class="app-sub">Version: 1.2.3</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/5thGraderFree-v123--iOS43-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">80sDrums</div>
+                <div class="app-sub">Version: 3.1.01</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/80sDrums-v3101--iOS30-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">AR.FreeFlight</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/ARFreeFlight-v20--iOS43-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">AirMusic</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/AirMusic-v177--iOS43-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Absolute RC  Plane Sim</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/AbsoluteRCPlaneSim-v318--iOS60-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Angry Birds</div>
+                <div class="app-sub">Version: 1.6.1</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/AngryBirds-v161--iOS50-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Angry Birds</div>
+                <div class="app-warning">⚠️ 2 Versions Available</div>
+            </div>
+            <a href="version/AngryBirds-v153--iOS43-Clutch-146.html" class="ios-btn ios-btn-alt">View</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">Angry Birds</div>
+                <div class="app-sub">Version: 1.7.2</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/AngryBirds-v172--iOS43-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">2XL ATV Lite</div>
+                <div class="app-sub">Version: 1.2.2</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/2XLATVLite-v122--iOS30-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+        <li class="ios-item">
+            <div class="app-meta">
+                <div class="app-title">3DS Cardz</div>
+                <div class="app-sub">Version: 1.1</div>
+            </div>
+            <a href="itms-services://?action=download-manifest&url=https://webstore.pages.dev/manifest/3DSCardz-v11--iOS40-Clutch-146.plist" class="ios-btn">Install</a>
+            <div class="clear"></div>
+        </li>
+    </ul>
+</body>
+</html>

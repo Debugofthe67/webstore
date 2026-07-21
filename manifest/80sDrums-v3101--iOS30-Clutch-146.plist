@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <key>url</key>
+                    <string>https://webstore.pages.dev/apps/80sDrums-v3.1.01--iOS3.0-(Clutch-1.4.6).ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.onbeat.80sDrums</string>
+                <key>bundle-version</key>
+                <string>3.1.01</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>80sDrums</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <key>url</key>
+                    <string>https://webstore.pages.dev/apps/Absolute RC  Plane Sim-v3.18--iOS6.0-(Clutch-1.4.6).ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.rcflightsim.cvplane2</string>
+                <key>bundle-version</key>
+                <string>3.18</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Absolute RC  Plane Sim</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
